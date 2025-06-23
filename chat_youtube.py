@@ -14,7 +14,7 @@ def embedchain_bot(db_path: str, api_key: str) -> App:
     return App.from_config(
         config={
             "llm": {"provider": "openai", "config": {"model": "gpt-4", "temperature": 0.5, "api_key": api_key}},
-            "vectordb": {"provider": "chroma", "config": {"dir": db_path}},
+            "vectordb": {"provider": "chroma", "config": {}},
             "embedder": {"provider": "openai", "config": {"api_key": api_key}},
         }
     )
