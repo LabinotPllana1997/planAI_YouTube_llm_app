@@ -66,7 +66,7 @@ Interact with YouTube videos using Retrieval Augmented Generation (RAG) and Open
 
 ## Credits
 
-- [planAI](https://planai.com) — AI technology and branding
+- [planAI](https://planai.co) — AI technology and branding
 - [embedchain](https://github.com/embedchain/embedchain)
 - [youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api)
 - [Streamlit](https://streamlit.io/)
