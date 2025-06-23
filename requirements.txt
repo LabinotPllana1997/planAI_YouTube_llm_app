@@ -1,3 +1,4 @@
 streamlit
 embedchain[youtube]
 youtube-transcript-api==1.1.0
+protobuf==3.20.3
