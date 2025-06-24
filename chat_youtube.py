@@ -11,10 +11,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def embedchain_bot(db_path: str, api_key: str) -> App:
+    lancedb_path = os.path.join(db_path, "vectordb.lance")
     return App.from_config(
         config={
             "llm": {"provider": "openai", "config": {"model": "gpt-4", "temperature": 0.5, "api_key": api_key}},
-            "vectordb": {"provider": "chroma", "config": {"dir": ":memory:"}},
+            "vectordb": {
+                "provider": "lancedb",
+                "config": {
+                    "dir": lancedb_path
+                }
+            },
             "embedder": {"provider": "openai", "config": {"api_key": api_key}},
         }
     )
