@@ -20,8 +20,7 @@ Interact with YouTube videos using Retrieval Augmented Generation (RAG) and Open
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps/advanced_llm_apps/chat_with_X_tutorials/chat_with_youtube_videos
+   git clone https://github.com/LabinotPllana1997/planAI_YouTube_llm_app.git
    ```
 
 2. **Install dependencies**
