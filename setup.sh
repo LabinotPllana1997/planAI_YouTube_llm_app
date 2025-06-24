@@ -1,2 +1,2 @@
 #!/bin/bash
-pip install --force-reinstall protobuf==3.20.3
+pip install --force-reinstall protobuf==3.19.0
