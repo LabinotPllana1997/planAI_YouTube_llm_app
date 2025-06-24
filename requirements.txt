@@ -1,7 +1,3 @@
 streamlit
-embedchain==0.1.128
-chromadb==0.5.23
-lancedb==0.6.13
+embedchain[youtube]
 youtube-transcript-api==1.1.0
-protobuf==3.20.3
-python-dotenv==1.1.0
