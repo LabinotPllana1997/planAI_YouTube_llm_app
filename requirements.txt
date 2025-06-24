@@ -1,5 +1,5 @@
 streamlit
-embedchain==latest
-chromadb==latest
+embedchain
+chromadb
 youtube-transcript-api==1.1.0
 protobuf==3.20.3
